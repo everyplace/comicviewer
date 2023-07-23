@@ -9,8 +9,8 @@
   <nav>
     <ul>
       <li><router-link to="/">go to home</router-link></li>
-      <li><router-link to="/test">go to test</router-link></li>
-      <li><router-link to="/one">go to one</router-link></li>
+      <li><router-link to="/about">go to test</router-link></li>
+      <li><router-link to="/view">go to one</router-link></li>
     </ul>
 <!-- 
     <ul>

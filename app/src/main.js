@@ -1,17 +1,18 @@
 import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
-import HelloWorld from './components/HelloWorld.vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
-const One = { template: '<div>One component...</div>' }
-const Test = { template: '<div>Test component...</div>' }
+import './style.css'
+
+import App from './App.vue'
+import HelloWorld from './components/HelloWorld.vue'
+import ViewComic from './components/ViewComic.vue'
+import About from './components/About.vue'
 
 
 const routes = [
     { path: '/', component: HelloWorld },
-    { path: '/one', component: One },
-    { path: '/test', component: Test },
+    { path: '/about', component: About },
+    { path: '/view', component: ViewComic },
   ]
 
   const router = createRouter({
